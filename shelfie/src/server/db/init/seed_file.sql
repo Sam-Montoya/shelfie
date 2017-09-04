@@ -3,8 +3,8 @@ DROP TABLE IF EXISTS bin;
 
 CREATE TABLE shelf (shelf_id serial primary key, shelf_name varchar(30));
 
-CREATE TABLE bin (bin_id serial primary key, bin_name varchar(30), ite
-m_name VARCHAR(30), price numeric(10,2), fk_shelf_id integer );
+CREATE TABLE bin (bin_id serial primary key, bin_name varchar(30),
+item_name VARCHAR(30), price numeric(10,2), fk_shelf_id integer );
 
 INSERT INTO shelf (shelf_name) 
 VALUES 

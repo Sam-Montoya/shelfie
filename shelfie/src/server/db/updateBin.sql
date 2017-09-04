@@ -1,0 +1,1 @@
+UPDATE bin set item_name = $1, price = $2 WHERE bin_id = $3;

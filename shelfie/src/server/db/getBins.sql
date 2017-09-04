@@ -1,0 +1,1 @@
+SELECT * FROM bin WHERE fk_shelf_id = $1 ORDER BY bin_id;
